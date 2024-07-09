@@ -49,7 +49,7 @@ class MainActivity : ComponentActivity() {
                 val intContent = GenericClass(120)
                 val stringContent=GenericClass("Hello android")
 
-                Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.errorContainer){
+                Surface(modifier = Modifier.fillMaxSize(), color = Color.White){
                     Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center){
                         CounterView()
                         Spacer(modifier=Modifier.height(10.dp))
